@@ -1,0 +1,45 @@
+﻿<Window x:Class="MasirPal.AddP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MasirPal"
+        mc:Ignorable="d"
+        Title="Работа с партнерами" Height="450" Width="800" Icon="Мастер пол.ico">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="61" Source="Мастер пол.ico">
+            <UIElement.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </UIElement.RenderTransform>
+        </Image>
+
+        <TextBlock x:Name="mtb" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Редактирование" VerticalAlignment="Top" FontSize="25"/>
+        <TextBox x:Name="compname" HorizontalAlignment="Left" Margin="24,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="68,90,0,0" TextWrapping="Wrap" Text="Наименование" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="compphon" HorizontalAlignment="Center" Margin="0,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontSize="20" MaxLength="13"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,90,0,0" TextWrapping="Wrap" Text="Телефон без +7" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="comprat" HorizontalAlignment="Left" Margin="24,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" FontSize="20" MaxLength="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="101,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"><Run Language="ru-ru" Text="Рейтинг"/></TextBlock>
+        <TextBox x:Name="compadrs" HorizontalAlignment="Left" Margin="24,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="68,222,0,0" TextWrapping="Wrap" Text="Адрес партнера" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="compemail" HorizontalAlignment="Center" Margin="0,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="228" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,156,0,0" TextWrapping="Wrap" Text="Электронная почта" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,227,0,0" TextWrapping="Wrap" Text="Тип партнера" VerticalAlignment="Top" FontSize="20"/>
+        <ComboBox x:Name="comptype" HorizontalAlignment="Center" Margin="0,254,0,0" VerticalAlignment="Top" Width="228" FontSize="20"/>
+        <TextBox x:Name="dirname" HorizontalAlignment="Left" Margin="519,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="563,90,0,0" TextWrapping="Wrap" Text="Имя директора" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="dirsecname" HorizontalAlignment="Left" Margin="519,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="541,156,0,0" TextWrapping="Wrap" Text="Фамилия директора" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="dirthrname" HorizontalAlignment="Left" Margin="519,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="541,222,0,0" TextWrapping="Wrap" Text="Отчество директора" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="tomain" Content="Вернуться" HorizontalAlignment="Left" Margin="20,353,0,0" VerticalAlignment="Top" BorderBrush="White" Background="#FF67BA80" FontSize="20" Click="addp_Click"/>
+        <Button x:Name="addbtn" Content="Добавить партнера" HorizontalAlignment="Left" Margin="312,353,0,0" VerticalAlignment="Top" BorderBrush="White" Background="#FF67BA80" FontSize="20" Click="addbtn_Click"/>
+        <Button x:Name="redbtn" Content="Отредактировать данные" HorizontalAlignment="Left" Margin="500,353,0,0" VerticalAlignment="Top" BorderBrush="White" Background="#FF67BA80" FontSize="20" Click="redbtn_Click"/>
+
+    </Grid>
+</Window>

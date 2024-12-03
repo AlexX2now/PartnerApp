@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7ebaee4b4c014a01b43a93c3adf46458" Name="Diagram1">
+        <EntityTypeShape EntityType="upeshkaModel.C_Банковские_данные__" Width="1.5" PointX="10.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.Должность_" Width="1.5" PointX="10.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Доступ_кадров_к_оборудованию__" Width="1.5" PointX="15.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Единицы_измерения__" Width="1.5" PointX="0.75" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.Заявки_" Width="1.5" PointX="7.5" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_История_прохода_через_турникет__" Width="1.5" PointX="15.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Количество_материала__" Width="1.5" PointX="5.25" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.Материалы_" Width="1.5" PointX="3" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Места_продаж_партнеров__" Width="1.5" PointX="8.25" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.Наличие_семьи" Width="1.5" PointX="10.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Номер_стандарта__" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.Оборудование_" Width="1.5" PointX="13" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.Оплата_" Width="1.5" PointX="9.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.Партнеры_" Width="1.5" PointX="6" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.Поставщики_" Width="1.5" PointX="3" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Прием_материала__" Width="1.5" PointX="5.25" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Продукции_на_складе__" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Продукция_к_заявке__" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.Продукция_" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Размер_упаковки__" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.Реализация_продукции_" Width="1.5" PointX="8.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Рейтинг_партнеров__" Width="1.5" PointX="8.25" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Сертификат_качества__" Width="1.5" PointX="0.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.Склад_" Width="1.5" PointX="0.75" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Состав_продукции__" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Состояние_здоровья__" Width="1.5" PointX="10.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.Сотрудники_" Width="1.5" PointX="13" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Способ_оплаты__" Width="1.5" PointX="7.5" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Статус_заявки__" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Тип_материала__" Width="1.5" PointX="0.75" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Тип_партнера__" Width="1.5" PointX="3.75" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Тип_поставщика__" Width="1.5" PointX="0.75" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.C_Тип_продукции__" Width="1.5" PointX="0.75" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="upeshkaModel.Цех_" Width="1.5" PointX="0.75" PointY="18.5" IsExpanded="true" />
+        <AssociationConnector Association="upeshkaModel.FK_Сотрудники___Банковские_данные__" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Сотрудники__Должность_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK__Доступ_кадров_к_оборудованию___Оборудование_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK__Доступ_кадров_к_оборудованию___Сотрудники_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Материалы___Единицы_измерения__" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Заявки___Продукция_к_заявке__" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Заявки___Статус_заявки__" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Оплата__Заявки_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK__История_прохода_через_турникет___Сотрудники_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK__Количество_материала___Материалы_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Материалы___Тип_материала__" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK__Прием_материала___Материалы_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK__Состав_продукции___Материалы_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK__Места_продаж_партнеров___Парнетры_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Сотрудники__Наличие_семьи" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Продукция___Номер_стандарта__" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Оплата___Способ_оплаты__" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Парнетры___Тип_партнера__" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Реализация_продукции__Парнетры_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK__Рейтинг_партнеров___Парнетры_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Поставщики___Тип_поставщика__" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK__Прием_материала___Поставщики_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK__Продукции_на_складе___Продукция_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK__Продукция_к_заявке___Продукция_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Продукция___Размер_упаковки__" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Продукция___Сертификат_качества__" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Продукция__Склад_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Продукция___Тип_продукции__" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Продукция__Цех_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Реализация_продукции__Продукция_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK__Состав_продукции___Продукция_" ManuallyRouted="false" />
+        <AssociationConnector Association="upeshkaModel.FK_Сотрудники___Состояние_здоровья__" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

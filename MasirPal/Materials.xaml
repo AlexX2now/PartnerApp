@@ -1,0 +1,26 @@
+﻿<Window x:Class="MasirPal.Materials"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MasirPal"
+        mc:Ignorable="d"
+        Title="Материалы" Height="450" Width="800" Icon="Мастер пол.ico">
+    <Grid>
+        <TextBlock x:Name="Подсчет_материалов" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Подсчет материалов" VerticalAlignment="Top" FontSize="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,77,0,0" TextWrapping="Wrap" Text="Тип материала" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,143,0,0" TextWrapping="Wrap" Text="Тип продукции" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="qu" HorizontalAlignment="Left" Margin="292,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="352,77,0,0" TextWrapping="Wrap" Text="Количество" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="p1" HorizontalAlignment="Left" Margin="536,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="580,77,0,0" TextWrapping="Wrap" Text="Параметр 1" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="p2" HorizontalAlignment="Left" Margin="536,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="227" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="580,143,0,0" TextWrapping="Wrap" Text="Параметр 2" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="tomain" Content="Вернуться" HorizontalAlignment="Left" Margin="17,371,0,0" VerticalAlignment="Top" BorderBrush="White" Background="#FF67BA80" FontSize="20" Click="addp_Click"/>
+        <Button x:Name="tometh" Content="Рассчитать" HorizontalAlignment="Center" Margin="0,347,0,0" VerticalAlignment="Top" BorderBrush="White" Background="#FF67BA80" FontSize="20" Click="tometh_Click"/>
+        <TextBlock x:Name="itog" HorizontalAlignment="Center" Margin="0,256,0,0" TextWrapping="Wrap" Text="Нужно материалов: " VerticalAlignment="Top" FontSize="25"/>
+        <ComboBox x:Name="tm" HorizontalAlignment="Left" Margin="32,109,0,0" VerticalAlignment="Top" Width="201" FontSize="18"/>
+        <ComboBox x:Name="tp" HorizontalAlignment="Left" Margin="32,175,0,0" VerticalAlignment="Top" Width="201" FontSize="18"/>
+
+    </Grid>
+</Window>

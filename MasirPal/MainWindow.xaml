@@ -1,0 +1,31 @@
+﻿<Window x:Class="MasirPal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MasirPal"
+        mc:Ignorable="d"
+        Title="Главная страница" Height="490" Width="800" Icon="Мастер пол.ico">
+    <Grid>
+        <ListView Name="prtns" Width="800" Margin="0,78,0,0" >
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="1"/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+        </ListView>
+        <Image HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="61" Source="Мастер пол.ico">
+            <UIElement.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </UIElement.RenderTransform>
+        </Image>
+        <Button x:Name="addp" Content="Добавить партнера" HorizontalAlignment="Left" Margin="96,25,0,0" VerticalAlignment="Top" BorderBrush="White" Background="#FF67BA80" FontSize="20" Click="addp_Click"/>
+        <Button x:Name="hist" Content="История реализации" HorizontalAlignment="Left" Margin="284,25,0,0" VerticalAlignment="Top" BorderBrush="White" Background="#FF67BA80" FontSize="20" Click="hist_Click"/>
+        <Button x:Name="rasch" Content="Расчет материалов" HorizontalAlignment="Left" Margin="485,25,0,0" VerticalAlignment="Top" BorderBrush="White" Background="#FF67BA80" FontSize="20" Click="rasch_Click"/>
+    </Grid>
+</Window>
